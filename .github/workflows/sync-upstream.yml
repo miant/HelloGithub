@@ -31,7 +31,7 @@ jobs:
         id: sync
         run: |
           # 添加上游仓库
-          git remote add upstream https://github.com/OnSpaceAI/docs.git || true
+          git remote add upstream https://github.com/521xueweihan/HelloGitHub.git || true
           
           # 获取上游更新
           git fetch upstream
